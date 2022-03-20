@@ -1998,6 +1998,20 @@
 #define MASK_HINVAL_VVMA 0xfe007fff
 #define MATCH_HINVAL_GVMA 0x66000073
 #define MASK_HINVAL_GVMA 0xfe007fff
+#define MATCH_CBO_CLEAN 0x10200f
+#define MASK_CBO_CLEAN 0xfff07fff
+#define MATCH_CBO_FLUSH 0x20200f
+#define MASK_CBO_FLUSH 0xfff07fff
+#define MATCH_CBO_INVAL 0x200f
+#define MASK_CBO_INVAL 0xfff07fff
+#define MATCH_CBO_ZERO 0x40200f
+#define MASK_CBO_ZERO 0xfff07fff
+#define MATCH_PREFETCH_I 0x6013
+#define MASK_PREFETCH_I 0x1f07fff
+#define MATCH_PREFETCH_R 0x106013
+#define MASK_PREFETCH_R 0x1f07fff
+#define MATCH_PREFETCH_W 0x306013
+#define MASK_PREFETCH_W 0x1f07fff
 /* Hypervisor instruction.  */
 #define MATCH_HFENCE_VVMA 0x22000073
 #define MASK_HFENCE_VVMA 0xfe007fff
